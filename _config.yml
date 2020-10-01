@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: 머윤                          # the main title
+title: Chirpy                          # the main title
 
-tagline: code monkey  # it will display as the sub-title
+tagline: A text-focused Jekyll theme.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -18,9 +18,9 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://Yoon6.github.io'
+url: 'protocol://domain'
 
-author: Daeyoon Choi                  # change to your full name
+author: your_full_name                  # change to your full name
 
 avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
@@ -51,7 +51,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Seoul
+timezone: Asia/Shanghai
 
 google_analytics:
   id: ''          # Fill with your Google Analytics ID
