@@ -21,6 +21,7 @@ tags: [docker]     # TAG names should always be lowercase
 
 하지만, 한 컴퓨터에서 독립된 운영체제를 여러개 돌리는 것은 성능상의 문제가 있다. 이 문제를 해결한 것이 도커이다.
 
+![image_2](/assets/img/post/1/Untitled%201.png)
 
 리눅스 위에 도커만 설치하면 어디서든 똑같이 동작하는 가상환경을 여러개 띄울 수 있다.
 
@@ -30,6 +31,6 @@ tags: [docker]     # TAG names should always be lowercase
 
 ---
 
-### 참고자료
+# 참고자료
 
 [모두를 위한 딥러닝 시즌2 : Docker Instruction](https://youtu.be/7eldOrjQVi0)
