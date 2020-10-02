@@ -8,13 +8,13 @@ tags: [github-pages]     # TAG names should always be lowercase
 
 이 이유가 아니라면 Tistory등을 이용하는 것이 훨씬 좋은 것같다. 그럼에도 한번 세팅해놓으면, 마크다운 문서를 이용한 간단한 업로드를 할 수 있어 노션으로 작성한 문서를 비교적 쉽게 옮길 수 있어 선택했다.
 
-이 포스팅에서는 jekyll을 이용할 것이고, [https://github.com/cotes2020/jekyll-theme-chirpy/](https://github.com/cotes2020/jekyll-theme-chirpy/) 이 테마를 이용할 것이다.  [https://chirpy.cotes.info/](https://chirpy.cotes.info/) 데모페이지이다.
+이 포스팅에서는 jekyll을 이용할 것이고, [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) 이 테마를 이용할 것이다.  [Chirpy-Demo](https://chirpy.cotes.info/) 데모페이지이다.
 
 본 포스팅은 Windows기반으로 작성되었고, Git, Github 기본적인 사용법은 설명하지 않겠다.
 
 # Github Pages 레포지토리 만들기
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e6e98de-a21e-4d45-98f1-71af4b8a7b60/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e6e98de-a21e-4d45-98f1-71af4b8a7b60/Untitled.png)
+![Untitled.png](/asset/img/post/2/Untitled.png)
 
 본인의 github에 레포지토리를 생성한다. 이름은 `[USERNAME].github.io`로 한다. 나의 경우는 `Yoon6.github.io`로 해야한다.
 
@@ -28,7 +28,7 @@ tags: [github-pages]     # TAG names should always be lowercase
 
 [Free Jekyll Themes](https://jekyllthemes.io/free)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5558d5a4-2f26-4997-a989-b596de9e6a02/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5558d5a4-2f26-4997-a989-b596de9e6a02/Untitled.png)
+![Untitled%201.png](/asset/img/post/2/Untitled%201.png)
 
 jekyll-theme을 fork해서 쓰면 훨씬 편하지만, 그렇게하면 잔디(contributions)가 채워지지 않는다.
 
@@ -40,15 +40,15 @@ ZIP파일을 다운받고 위에서 clone해 두었던 local폴더에 내려받�
 
 jekyll은 루비로 작성되어 있고, 정적 사이트를 만드는 도구이다. 그래서 Ruby도 설치해야한다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4451325-b9c3-4637-93e3-6d688b2497b9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4451325-b9c3-4637-93e3-6d688b2497b9/Untitled.png)
+![Untitled%202.png](/asset/img/post/2/Untitled%202.png)
 
-[Downloads](https://rubyinstaller.org/downloads/)
+[Ruby-Installer](https://rubyinstaller.org/downloads/)
 
 위 사이트에 들어가서 루비를 다운받자. 본인은 `2.6.6-1(x64)`를 받았다.
 
 설치를 완료하고 Start Command Prompt with Ruby를 실행하자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/00326047-7637-41be-ab3a-3b1af9eb8fb3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/00326047-7637-41be-ab3a-3b1af9eb8fb3/Untitled.png)
+![Untitled%203.png](/asset/img/post/2/Untitled%203.png)
 
 - 첫 번째로 아래 명령어를 입력하자.
 
@@ -64,7 +64,7 @@ jekyll은 루비로 작성되어 있고, 정적 사이트를 만드는 도구이
 >cd Yoon6.github.io
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55d588fb-6c63-4290-9656-0ffa2df5c64f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55d588fb-6c63-4290-9656-0ffa2df5c64f/Untitled.png)
+![Untitled%204.png](/asset/img/post/2/Untitled%204.png)
 
 - jekyll 라이브러리등을 설치하자.
 
@@ -95,9 +95,9 @@ Yoon6.github.io>bundle exec jekyll serve
 
 두 줄을 `jekyll_plugins` 그룹에 넣어주자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4e44394-ce30-4420-8866-70b872c48070/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4e44394-ce30-4420-8866-70b872c48070/Untitled.png)
+![Untitled%205.png](/asset/img/post/2/Untitled%205.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c3e37c8-92a8-4dba-8a6d-4b84ee0bca50/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c3e37c8-92a8-4dba-8a6d-4b84ee0bca50/Untitled.png)
+![Untitled%206.png](/asset/img/post/2/Untitled%206.png)
 
 - 접속해보기
 
@@ -145,11 +145,11 @@ add-commit-push해주자.
 
 ~~(만약에 안된다면 저장소를 지웠다가 다시 해보자. 필자는 다른 방법을 찾지 못했다.)~~
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fca7b84a-f464-4da4-a9db-66e469359116/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fca7b84a-f464-4da4-a9db-66e469359116/Untitled.png)
+![Untitled%207.png](/asset/img/post/2/Untitled%207.png)
 
 이 브랜치를 publishing source로 해주어야한다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e47ed5d-2b41-41bf-bea6-7d9a3805b130/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e47ed5d-2b41-41bf-bea6-7d9a3805b130/Untitled.png)
+![Untitled%208.png](/asset/img/post/2/Untitled%208.png)
 
 깃 허브는 보안상의 이유로, 깃 허브 페이지를 안전모드로 실행하는데, 이렇게 되면 블로그 게시에 사용되는 자동 툴들을 사용할 수 없다. 그래서 브랜치를 만들어서 Github Actions를 사용할 수 있게 하는 것이다.
 
@@ -190,7 +190,7 @@ tags: [machine-learning]     # TAG names should always be lowercase
 
 이미지 업로드의 경우는 `![image1](/asset/img/post/1/untitled.png)`이런 식으로 설정해줘야 웹페이지에서 보였다.
 
-그 외의 옵션들은 [https://chirpy.cotes.info/](https://chirpy.cotes.info/) 데모페이지의 tutorial을 참고하자.
+그 외의 옵션들은 [Chirpy](https://chirpy.cotes.info/) 데모페이지의 tutorial을 참고하자.
 
 ## 업로드
 
@@ -203,3 +203,9 @@ $git push -u origin master
 ```
 
 그리고 5-6분 정도 기다리면 업로드가 된다.
+
+---
+
+# 참고 자료
+
+[[Jekyll Blog] GitHub 연동 및 Jekyll 설치](https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/)
