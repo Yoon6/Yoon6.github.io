@@ -15,13 +15,13 @@ tags: [docker]     # TAG names should always be lowercase
 
 이에 대하여 설명하자면, 우선 가상화란 실제로 존재하지 않는 것을 보이게 해놓은 것이다. 예를 들어 컴퓨터의 물리적 보조기억장치(SSD, HDD)는 1개이지만, C드라이브와 D드라이브로 파티션을 나눠서 설정할 수 있다. 또, VirtualBox나 맥의 패러렐즈같이 가상 머신도 예로 들 수 있다.
 
-![2020-10-02-what-is-docker/Untitled.png](2020-10-02-what-is-docker/Untitled.png)
+![2020-10-02-what-is-docker/Untitled.png](notion://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F954dd1c0-8275-4847-a7a5-e62ca31bb950%2FUntitled.png?table=block&id=ded23fcd-e3f7-4ff7-912a-b971023449f4&width=2260&userId=2164ceb4-3a97-4cea-8fef-125742fd8f86&cache=v2)
 
 가상화는 클라우드 시장에서 많이 쓰이고 있다. 고성능의 머신을 가상머신으로 잘게 나눠서 대여해주는 방식으로 쓰이고 있다.
 
 하지만, 한 컴퓨터에서 독립된 운영체제를 여러개 돌리는 것은 성능상의 문제가 있다. 이 문제를 해결한 것이 도커이다.
 
-![2020-10-02-what-is-docker/Untitled%201.png](2020-10-02-what-is-docker/Untitled%201.png)
+![2020-10-02-what-is-docker/Untitled%201.png](notion://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F678b0a68-be92-4321-9c5c-9322b6d64b54%2FUntitled.png?table=block&id=9397f2e2-5f17-48b0-8ad1-69e2e0e59e0f&width=2260&userId=2164ceb4-3a97-4cea-8fef-125742fd8f86&cache=v2)
 
 리눅스 위에 도커만 설치하면 어디서든 똑같이 동작하는 가상환경을 여러개 띄울 수 있다.
 
