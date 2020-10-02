@@ -14,7 +14,7 @@ tags: [github-pages]     # TAG names should always be lowercase
 
 # Github Pages 레포지토리 만들기
 
-![Untitled.png](/asset/img/post/2/Untitled.png)
+![Untitled.png](/assets/img/post/2/Untitled.png)
 
 본인의 github에 레포지토리를 생성한다. 이름은 `[USERNAME].github.io`로 한다. 나의 경우는 `Yoon6.github.io`로 해야한다.
 
@@ -28,7 +28,7 @@ tags: [github-pages]     # TAG names should always be lowercase
 
 [Free Jekyll Themes](https://jekyllthemes.io/free)
 
-![Untitled%201.png](/asset/img/post/2/Untitled%201.png)
+![Untitled%201.png](/assets/img/post/2/Untitled%201.png)
 
 jekyll-theme을 fork해서 쓰면 훨씬 편하지만, 그렇게하면 잔디(contributions)가 채워지지 않는다.
 
@@ -40,7 +40,7 @@ ZIP파일을 다운받고 위에서 clone해 두었던 local폴더에 내려받�
 
 jekyll은 루비로 작성되어 있고, 정적 사이트를 만드는 도구이다. 그래서 Ruby도 설치해야한다.
 
-![Untitled%202.png](/asset/img/post/2/Untitled%202.png)
+![Untitled%202.png](/assets/img/post/2/Untitled%202.png)
 
 [Ruby-Installer](https://rubyinstaller.org/downloads/)
 
@@ -48,7 +48,7 @@ jekyll은 루비로 작성되어 있고, 정적 사이트를 만드는 도구이
 
 설치를 완료하고 Start Command Prompt with Ruby를 실행하자.
 
-![Untitled%203.png](/asset/img/post/2/Untitled%203.png)
+![Untitled%203.png](/assets/img/post/2/Untitled%203.png)
 
 - 첫 번째로 아래 명령어를 입력하자.
 
@@ -64,7 +64,7 @@ jekyll은 루비로 작성되어 있고, 정적 사이트를 만드는 도구이
 >cd Yoon6.github.io
 ```
 
-![Untitled%204.png](/asset/img/post/2/Untitled%204.png)
+![Untitled%204.png](/assets/img/post/2/Untitled%204.png)
 
 - jekyll 라이브러리등을 설치하자.
 
@@ -95,9 +95,9 @@ Yoon6.github.io>bundle exec jekyll serve
 
 두 줄을 `jekyll_plugins` 그룹에 넣어주자.
 
-![Untitled%205.png](/asset/img/post/2/Untitled%205.png)
+![Untitled%205.png](/assets/img/post/2/Untitled%205.png)
 
-![Untitled%206.png](/asset/img/post/2/Untitled%206.png)
+![Untitled%206.png](/assets/img/post/2/Untitled%206.png)
 
 - 접속해보기
 
@@ -145,11 +145,11 @@ add-commit-push해주자.
 
 ~~(만약에 안된다면 저장소를 지웠다가 다시 해보자. 필자는 다른 방법을 찾지 못했다.)~~
 
-![Untitled%207.png](/asset/img/post/2/Untitled%207.png)
+![Untitled%207.png](/assets/img/post/2/Untitled%207.png)
 
 이 브랜치를 publishing source로 해주어야한다.
 
-![Untitled%208.png](/asset/img/post/2/Untitled%208.png)
+![Untitled%208.png](/assets/img/post/2/Untitled%208.png)
 
 깃 허브는 보안상의 이유로, 깃 허브 페이지를 안전모드로 실행하는데, 이렇게 되면 블로그 게시에 사용되는 자동 툴들을 사용할 수 없다. 그래서 브랜치를 만들어서 Github Actions를 사용할 수 있게 하는 것이다.
 
