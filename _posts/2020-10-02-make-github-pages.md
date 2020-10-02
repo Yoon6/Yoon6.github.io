@@ -113,7 +113,7 @@ Chirpy 기본화면으로 설정되어 있을 것이다.
 
 - Git bash로 들어가자.
 
-```bash
+```
 $cd Yoon6.github.io
 ```
 
@@ -121,7 +121,7 @@ $cd Yoon6.github.io
 
 - init.sh실행하기
 
-```bash
+```
 $bash tools/init.sh
 ```
 
@@ -131,7 +131,7 @@ $bash tools/init.sh
 
 - push
 
-```bash
+```
 $git add --all
 $git commit -m "initialize"
 $git push -u origin master
@@ -188,7 +188,7 @@ tags: [machine-learning]     # TAG names should always be lowercase
 
 그 밑으로는 마크다운 문법으로 작성해주면 된다.
 
-이미지 업로드의 경우는 `![image1](/asset/img/post/1/untitled.png)`이런 식으로 설정해줘야 웹페이지에서 보였다.
+이미지 업로드의 경우는 `![image1](/assets/img/post/1/untitled.png)`이런 식으로 설정해줘야 웹페이지에서 보였다.
 
 그 외의 옵션들은 [Chirpy](https://chirpy.cotes.info/) 데모페이지의 tutorial을 참고하자.
 
@@ -196,7 +196,7 @@ tags: [machine-learning]     # TAG names should always be lowercase
 
 위에서 했던 방법대로 add/commit/push한다.
 
-```bash
+```
 $git add --all
 $git commit -m "initialize"
 $git push -u origin master
@@ -204,6 +204,7 @@ $git push -u origin master
 
 그리고 5-6분 정도 기다리면 업로드가 된다.
 
+이 상태에서는 구글 검색이 안되기 때문에 따로 설정을 해주어야한다.
 ---
 
 # 참고 자료
