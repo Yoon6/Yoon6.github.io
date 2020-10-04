@@ -12,4 +12,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: {{ site.url | append: site.baseurl }}/sitemap.xml
+Sitemap: https://yoon6.github.io/sitemap.xml
