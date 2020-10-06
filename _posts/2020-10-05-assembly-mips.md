@@ -1,6 +1,6 @@
 ---
 title: MIPS 기본
-date: 2020-10-02 17:18:00 +0900
+date: 2020-10-05 21:30:00 +0900
 categories: [Programming, Assembly]
 tags: [assembly, mips]     # TAG names should always be lowercase
 ---
@@ -211,3 +211,7 @@ while문의 기능.
 		
 		jr $ra
 ```
+---
+
+# 참고 자료
+[MIPS Assembly Programming Simplified](https://www.youtube.com/playlist?list=PL5b07qlmA3P6zUdDf-o97ddfpvPFuNa5A)
