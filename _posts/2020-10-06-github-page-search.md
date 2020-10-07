@@ -34,7 +34,7 @@ Sitemap: https://USERNAME.github.io/sitemap.xml
 
 # sitemap.xml 추가
 
-![1.png](/assets/img/post/3/1.png)
+![1.jpg](/assets/img/post/3/1.jpg)
 
 위와 같이 `sitemap.xml`을 추가 한다.
 
@@ -44,6 +44,6 @@ Sitemap: https://USERNAME.github.io/sitemap.xml
 
 네이버에도 블로그를 노출 시킬 수 있다.
 
-[네이버 서치어드바이저](https://searchadvisor.naver.com/) 여기로 가면 위에서와 같이 'naver~~~.html'로 사이트 인증을 해주고, 'sitemap.xml'을 등록해주면 네이버 검색엔진에도 노출이 된다.
+[네이버 서치어드바이저](https://searchadvisor.naver.com/) 여기로 가면 위에서와 같이 `naver~~~.html`로 사이트 인증을 해주고, `sitemap.xml`을 등록해주면 네이버 검색엔진에도 노출이 된다.
 
 이 또한 즉시 반영되지는 않고 시간이 조금 걸린다.
