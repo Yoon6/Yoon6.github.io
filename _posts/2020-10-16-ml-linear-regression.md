@@ -23,7 +23,7 @@ tags: [machine-learning, linear-regression]     # TAG names should always be low
 
 데이터들을 가장 잘 대변하는 직선(일차함수)를 구하는 것이다.
 
-$y=ax+b$ 
+$$y=ax+b$$ 
 
 위의 식에서 기울기인 a값과 y절편인 b값을 구하는 것이 목적이다.
 
@@ -33,7 +33,7 @@ $y=ax+b$
 
 ![Untitled%201.png](/assets/img/post/4/Untitled%201.png)
 
-$H(x)=Wx+b$
+$$H(x)=Wx+b$$
 
 가설 함수는 이처럼 표현한다. W는 weight, b는 bias를 나타낸다.
 
@@ -47,25 +47,25 @@ $H(x)=Wx+b$
 
 ![Untitled%202.png](/assets/img/post/4/Untitled%202.png)
 
-$H(x)-y$ 값은 음수가 될 수 있기 때문에, 이 차이값을 나타내는 척도는 제곱을 이용하여 정의한다.
+$$H(x)-y$$ 값은 음수가 될 수 있기 때문에, 이 차이값을 나타내는 척도는 제곱을 이용하여 정의한다.
 
-$\dfrac{(H(x_1)-y_1)^2+(H(x_2)-y_2)^2+(H(x_3)-y_3)^2}{3}$으로 나타낸다.
+$$\dfrac{(H(x_1)-y_1)^2+(H(x_2)-y_2)^2+(H(x_3)-y_3)^2}{3}$$으로 나타낸다.
 
 일반화 하면
 
-$cost(W) =\dfrac{1}{m}\displaystyle\sum_{i=1}^m(Wx_i-y_i)^2$ 이렇게 나타낸다.
+$$cost(W) =\dfrac{1}{m}\displaystyle\sum_{i=1}^m(Wx_i-y_i)^2$$ 이렇게 나타낸다.
 
 비용 함수는
 
-$cost(W, b)=\dfrac{1}{m}\displaystyle\sum_{i=1}^m(H(x_i)-y_i)^2$ 이다.
+$$cost(W, b)=\dfrac{1}{m}\displaystyle\sum_{i=1}^m(H(x_i)-y_i)^2$$ 이다.
 
 ## 목표
 
-결국 선형회귀를 사용하는 머신러닝의 목표는 $cost(W,b)$를 최소화하는 $W$와 $b$를 찾는 것이다.
+결국 선형회귀를 사용하는 머신러닝의 목표는 $$cost(W,b)$$를 최소화하는 $$W$$와 $$b$$를 찾는 것이다.
 
 ## 추가 설명; 그러면 컴퓨터는 어떻게 학습을 하는가?
 
-만약 $y=2x$에 라는 함수를 구한다고 해보자. a=2, b=1이 되어야하는 것이다.
+만약 $$y=2x$$에 라는 함수를 구한다고 해보자. a=2, b=1이 되어야하는 것이다.
 
 위의 함수는 모른채로 x=1,2,3,4,5,... y=2,4,6,8,10,... 이렇게 주어진다면,
 
