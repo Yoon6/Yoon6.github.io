@@ -8,4 +8,11 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+# Yoon Choi
+I'm lived in Busan, Korea and go to Pukyong National University.
+
+I'm interested in Java, Android etc..
+
+If you want to contant me, you can email me yoonda5898@gamil.com
+
+
