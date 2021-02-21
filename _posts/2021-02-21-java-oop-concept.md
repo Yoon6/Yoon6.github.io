@@ -3,6 +3,7 @@ title: Basic Java OOP concepts
 date: 2021-02-21 19:18:00 +0900
 categories: [Programming, Java]
 tags: [oop, object-oriented programming, java]     # TAG names should always be lowercase
+comments: true
 ---
 
 # What is the OOP?
