@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow:/ 
+
+Sitemap: https://yoon6.github.io/sitemap.xml
